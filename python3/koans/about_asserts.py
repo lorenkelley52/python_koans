@@ -21,13 +21,14 @@ class AboutAsserts(Koan):
         Enlightenment may be more easily achieved with appropriate messages.
         """
         self.assertTrue(True, "This should be True -- Please fix this")
-
+            # function that runs to check if the patameter is true if it is true then it passes if not it fails
     def test_fill_in_values(self):
         """
         Sometimes we will ask you to fill in the values
         """
         self.assertEqual(2, 1 + 1)
-
+            # asserting that the first parameter is equal to the second in
+            
     def test_assert_equality(self):
         """
         To understand reality, we must compare our expectations against reality.
